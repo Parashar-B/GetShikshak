@@ -2,17 +2,17 @@ import {Link} from 'react-router-dom'
 function NavComponent(){
     return(
         <>
-                    <div className="bg-[#319D8E] text-white">
+            <div className="bg-primary-color text-white">
                 <div className="container mx-auto w-4/5">
                     <div className="nav flex justify-between h-16 items-center">
                         <div className=" w-1/2 logo">
                             <img className="logoImg" src="" alt="" />
-                            <span className="logoName">Logo</span>
+                            <span className="logoName tracking-wider">GETSHIKSHAK</span>
                         </div>
                         <div className="hamburger">
                             
                         </div>
-                        <ul className="w-1/2 flex justify-between ">
+                        <ul className="w-1/2 justify-between hidden sm:flex">
                             <li>About Us</li>
                             <li>Find Tutor</li>
                             <li>Become a Tutor</li>
