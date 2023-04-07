@@ -7,7 +7,7 @@ function NavComponent(){
                     <div className="nav flex justify-between h-16 items-center">
                         <div className=" w-1/2 logo">
                             <img className="logoImg" src="" alt="" />
-                            <span className="logoName tracking-wider">GETSHIKSHAK</span>
+                            <span className="logoName tracking-wider"><Link to="/">GETSHIKSHAK</Link></span>
                         </div>
                         <div className="hamburger">
                             
