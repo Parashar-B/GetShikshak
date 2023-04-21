@@ -4,7 +4,7 @@ import Register from "./Components/Register/Register"
 import Login from "./Components/Login/Login"
 import Landing from "./Components/Landing/Landing"
 import Footer from "./Components/Footer/Footer"
-import DashBoard from "./Components/DashBoard/dashboard"
+import DashBoard from "./Components/DashBoard/DashBoard"
 
 function App() {
 

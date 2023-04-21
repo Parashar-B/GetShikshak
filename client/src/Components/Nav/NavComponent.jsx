@@ -19,7 +19,7 @@ function NavComponent() {
         <div className=" w-1/4">
           <ul className="flex flex-row justify-around">
             <li><a href="#about-section">About Us</a></li>
-            <li><link to="/dashboard">Find Tutor</link></li>
+            <li><Link to="/dashboard">Find Tutor</Link></li>
             <li>Become a Tutor</li>
           </ul>
         </div>

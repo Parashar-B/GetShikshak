@@ -1,0 +1,132 @@
+#dashboard-div{
+    border: 1px solid orange;
+    width:100%;
+    height: 550px;
+    display: flex;
+    font-size: small;
+}
+
+.dashboard-sub-div{
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+#dashboard-left-sub-div{
+    width: 15%;
+    display: block;
+}
+
+#dashboard-right-sub-div{
+    width: 85%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-left-row-div{
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: #004d46;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+#dashboard-profile-section{
+    height: 45%;
+}
+
+#profile-pic-section{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: orange; */
+}
+
+#profile-pic{
+    background-color:white;
+    width: 118px;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#profile-info-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+    /* background-color: lightblue; */
+    width: 90%;
+    height: 40%;
+}
+
+#user-rating-tag{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 23%;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+#user-name{
+    font-size: medium;
+    margin-bottom: 8px;
+}
+
+.star{
+    color: yellow;
+}
+
+#dashboard-menu-section{
+    height: 55%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.dashboard-menu-options{
+        background-color: pink;
+        width: 90%;
+        height: 15%;
+        border-radius: 5px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.btn-class{
+    color: black;
+    background-color: orange;
+    box-shadow: 0px 2px 2px 1px black;
+    border-radius: 5px;
+}
+
+.btn-class:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+#profile-edit-btn{
+    margin-top: 12px;
+    width: 30%;
+    height: 23px;
+}
+
+#log-out-btn{
+    margin-top: 30px;
+    width: 30%;
+    height: 10%;
+}
