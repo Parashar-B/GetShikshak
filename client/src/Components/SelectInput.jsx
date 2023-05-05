@@ -4,7 +4,7 @@ function SelectInput(props){
         return <option className='border-r-[1px] border-black' value={`${value}`}>{value}</option>
     });
     return(
-            <select className="p-2 w-30 rounded-l border-r-[1px] border-black cursor-pointer bg-white">{options}</select>
+            <select className="p-2 rounded-l border-r-[1px] border-black cursor-pointer bg-white">{options}</select>
     )
 }
 

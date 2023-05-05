@@ -12,7 +12,7 @@ function Register(){
       };
     const { View } = useLottie(options);
     return(
-     <div className=' h-[80vh]'>
+     <div className=' h-[105vh]'>
         <div className="container mx-auto py-12 lg:w-[70vw]">
          <div className="flex shadow-xl flex-col items-center justify-around lg:justify-center lg:flex-row">
             <div className="left w-1/2 bg-[#9fe4da] justify-center items-center rounded-l-lg hidden lg:flex lg:h-[90vh]">
